@@ -1,0 +1,121 @@
+
+
+body {
+  background-color: #D0D9D6;
+}
+
+p {
+
+  font-family: termina, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color:#AF494D;
+}
+
+.overlay {
+  position: absolute;
+  top:0px;
+  left: 0px;
+  opacity: .2;
+  z-index: 10;
+  pointer-events: none;
+}
+
+
+.calContainer {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  padding: 50px;
+
+
+}
+
+img.button {
+  height: 75px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.title {
+  width:100%;
+  object-fit: contain;
+}
+
+
+.monthGrid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  width:100%;
+
+  border: 0.25px solid #AF494D;
+  border-top: none;
+}
+
+.dateGrid {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  width:100%;
+}
+
+.dateCell {
+  box-sizing: border-box;
+  height: 30px;
+  border: 0.25px solid #AF494D;
+  width:100%;
+  position: relative;
+}
+
+.dateCell p{
+  margin-top: 2px;
+  margin-left: 10px;
+}
+
+.dateCell.p {
+  background-color: #FBAED5;
+}
+
+.dateCell img {
+  width:25px;
+  top:2px;
+  left:55px;
+  position: absolute;
+}
+
+.dateCell.monthName {
+  background: rgb(208,217,214);
+  background: linear-gradient(180deg, rgba(208,217,214,1) 51%, rgba(254,151,118,0.7021183473389356) 97%);
+
+  border-top: none;
+}
+
+a {
+  text-decoration-color: #AF494D;
+  width:100%;
+  margin-top: 20px;
+}
+
+a p {
+  font-size: 9px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/*   */
